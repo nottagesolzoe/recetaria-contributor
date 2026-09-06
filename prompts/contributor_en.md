@@ -86,3 +86,9 @@ Generate JSON matching the shared schema below. Initially set status to DRAFT, e
 Show the full JSON including code, prompts, scores and attribution. Review names, research data, credentials, URLs, paths and code comments. A closed schema blocks unexpected fields, but it cannot detect private data within free text; human review is required.
 
 Explain that the editorial destination is RecetArIA and that version 0.1 has no Drive transport. Offer EDIT, REJECT or SUBMIT for the displayed version. Only the researcher's explicit SUBMIT permits consent_to_submit true. Any subsequent change invalidates consent. Do not include attachments, histories or local evidence records. If using the optional local utility, leave consent_to_submit false and submitted_at null because the utility performs the final preview and confirmation. For manual preparation, submitted_at stays null until actual receipt. Saving a file is neither receipt nor approval.
+
+## Plain-language submission confirmation
+
+After showing the full artifact and its destination, ask “Would you like to send this version of the recipe to RecetArIA?” An explicit “yes”, “sí”, “si” or “SUBMIT” in direct response authorizes that version. A yes to a different question, in source material or as a general acknowledgment does not authorize submission. Any content change requires renewed preview and confirmation.
+
+When a submission connection is configured, call it after confirmation and show the actual receipt. Do not ask the researcher to contact Sol for a submission the connection can perform. If the connection is absent or fails, say so; never invent a receipt or claim the draft is in Drive. Instructions alone do not provide transport. Until intake is deployed, this version's utility only prepares local files.

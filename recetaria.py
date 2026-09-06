@@ -73,7 +73,7 @@ def prepare(value, output, confirm=input, display=print):
     display('Artefacto exacto para RecetArIA. Solo se guardará localmente; no se enviará a Drive.')
     display(payload)
     display('Revisá privacidad, autoría y contenido completo. Modificarlo requiere otra revisión.')
-    if confirm('Escribí SUBMIT para preparar esta versión; cualquier otra respuesta cancela: ').strip() != 'SUBMIT':
+    if confirm('¿Autorizás preparar esta versión para RecetArIA? Escribí SÍ / YES; cualquier otra respuesta cancela: ').strip().casefold() not in {'sí', 'si', 'yes', 'submit'}:
         return False
     # Exclusive creation prevents accidental replacement of drafts or source files.
     with Path(output).open('x', encoding='utf-8') as stream:

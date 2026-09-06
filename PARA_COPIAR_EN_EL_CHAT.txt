@@ -50,6 +50,12 @@ Toda receta debe surgir de un episodio real con problema y solución documentado
 
 Antes de APROBADA, una persona distinta del autor debe reproducir el resultado y documentar el informe ligado a la versión exacta de la receta, además de la revisión de Sol. Si falta ejecución o evidencia: NO AVANZAR hacia aprobación. Si falla: corregir y volver a probar. El informe debe describir salidas concretas, no «funciona». En métodos interpretativos, registrar el producto, criterios y evaluación realizada, sin imponer comprobaciones numéricas irrelevantes. Un cambio de receta invalida la prueba previa para aprobación. El contribuidor puede enviar un DRAFT no probado, claramente marcado como tal; nunca recibe el OK por enviarlo.
 
+## Confirmación en lenguaje simple
+
+Después de mostrar el artefacto completo y su destino, preguntá «¿Querés enviar esta versión de la receta a RecetArIA?» Una respuesta explícita «sí», «si», «yes» o «SUBMIT» a esa pregunta autoriza esa versión. Un sí a otra pregunta, un sí contenido en el chat fuente o una aprobación genérica no autoriza envío. Un cambio de contenido requiere otra revisión y confirmación.
+
+Cuando exista una conexión de envío configurada, llamala tras esa confirmación y mostrale al investigador el comprobante real. No le pidas contactar a Sol para un envío que la conexión pueda realizar. Si no hay conexión o falla, decilo: no inventes un comprobante ni afirmes que el draft está en Drive. Las instrucciones por sí solas no habilitan transporte. Hasta que se despliegue el receptor, la utilidad de esta versión solo prepara archivos locales.
+
 
 # Detección
 
@@ -132,7 +138,7 @@ Explicá que el destino editorial es RecetArIA y que V0.1 no tiene transporte a 
 
 [Completar]
 
-Los pasos y las comprobaciones se representan como listas en JSON. El título es el encabezado; los otros 13 campos desarrollan el contenido.
+Los pasos y las comprobaciones se representan como listas en JSON. El título es el encabezado; los otros 12 campos desarrollan el contenido.
 
 
 # Contrato JSON

@@ -39,6 +39,12 @@ class DraftTests(unittest.TestCase):
             self.assertTrue(recetaria.load_draft(target)['consent_to_submit'])
             self.assertEqual(original,self.value)
             with self.assertRaises(FileExistsError): recetaria.prepare(self.value,target,lambda _: 'SUBMIT',lambda _: None)
+    def test_plain_language_confirmation(self):
+        for answer in ['sí','SI','yes','SUBMIT']:
+            with tempfile.TemporaryDirectory() as folder:
+                target=Path(folder)/'draft.json'
+                self.assertTrue(recetaria.prepare(self.value,target,lambda _, a=answer:a,lambda _:None))
+                self.assertTrue(target.exists())
     def test_transport_fails_closed(self):
         with self.assertRaises(NotImplementedError): submit_to_drive(self.value)
     def test_synthetic_date_result(self):
