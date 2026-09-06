@@ -1,0 +1,55 @@
+{
+  "contributor_name": "synthetic-example",
+  "contributor_id": "synthetic-example",
+  "original_recipe_id": "synthetic-example",
+  "project": "RecetArIA",
+  "source": "contributor_chat_history",
+  "status": "DRAFT",
+  "editorial_review": "pending",
+  "package_version": "0.1.0",
+  "recipe_version": "0.1",
+  "platform": "manual",
+  "model": "unknown",
+  "consent_to_submit": false,
+  "submitted_at": null,
+  "evidence_summary": "Caso sintético para probar el formato; no se ha probado con datos de investigación reales.",
+  "scores": {
+    "research_relevance_score": 3,
+    "research_relevance_reason": "Estimación ilustrativa para una operación repetible de importación.",
+    "transferability_score": 3,
+    "transferability_reason": "Estimación ilustrativa para una operación repetible de importación.",
+    "reusability_score": 3,
+    "reusability_reason": "Estimación ilustrativa para una operación repetible de importación.",
+    "specificity_score": 3,
+    "specificity_reason": "Estimación ilustrativa para una operación repetible de importación.",
+    "evidence_in_source_chat_score": 0,
+    "evidence_in_source_chat_reason": "Caso sintético: no constituye evidencia de una conversación real."
+  },
+  "recipe": {
+    "title": "Verificar fechas ambiguas antes de importar una tabla (ejemplo sintético)",
+    "when_to_use": "Cuando el orden día/mes de las fechas de una tabla está documentado.",
+    "concrete_output": "Una fecha interpretada con formato explícito y una comprobación de sus componentes.",
+    "methodological_warning": "No inferir el formato a partir de una fecha ambigua. Sin documentación del origen, detener la conversión.",
+    "estimated_time": "5 minutos si el formato está documentado y Python está disponible.",
+    "ingredients": [
+      "Python 3.10+",
+      "Formato documentado del origen",
+      "Fecha sintética 03/04/2024"
+    ],
+    "steps": [
+      "Confirmar que el origen usa día/mes/año.",
+      "Ejecutar la plantilla con la fecha sintética.",
+      "Comprobar día y mes antes de adaptar a una tabla; registrar valores no convertibles."
+    ],
+    "success_criteria": "El día es 3 y el mes es 4; fechas inválidas producen un error explícito.",
+    "academic_irony": "La fecha quedó perfecta, salvo por el mes.",
+    "reproducible_material": "from datetime import datetime\nd = datetime.strptime('03/04/2024', '%d/%m/%Y')\nassert (d.day, d.month, d.year) == (3, 4, 2024)",
+    "checks": [
+      "Verificar componentes contra documentación independiente del origen.",
+      "Probar que 31/02/2024 genera ValueError.",
+      "En la tabla real, contar fallos de conversión; no descartarlos silenciosamente."
+    ],
+    "interactive_prompt": "Actuá como tutor. Preguntá una sola pregunta cerrada por turno: ¿El origen documenta día/mes/año? (sí/no/no sé). Registrá respuesta y permití corregirla. Si no o no sé, pedí resolver el formato y no generes código. Si sí, mostrá el registro y ofrecé la plantilla de conversión y las comprobaciones.",
+    "quality_control_prompt": "Preguntá de una en una: ¿El formato está documentado? ¿Día y mes coinciden con el origen? ¿Se contaron los valores no convertibles? Usá sí/no/no sé y pedí evidencia antes de concluir. Terminá NO AVANZAR si falta el formato, REVISAR si falta una comprobación, LISTO si todas están documentadas. LISTO no es aprobación editorial."
+  }
+}

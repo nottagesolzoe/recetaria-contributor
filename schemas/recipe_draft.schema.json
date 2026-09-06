@@ -1,0 +1,224 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RecetArIA local draft v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contributor_name",
+    "contributor_id",
+    "original_recipe_id",
+    "platform",
+    "model",
+    "recipe_version",
+    "evidence_summary",
+    "project",
+    "source",
+    "status",
+    "editorial_review",
+    "package_version",
+    "consent_to_submit",
+    "submitted_at",
+    "scores",
+    "recipe"
+  ],
+  "properties": {
+    "contributor_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "contributor_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "original_recipe_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "platform": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recipe_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project": {
+      "const": "RecetArIA"
+    },
+    "source": {
+      "const": "contributor_chat_history"
+    },
+    "status": {
+      "const": "DRAFT"
+    },
+    "editorial_review": {
+      "const": "pending"
+    },
+    "package_version": {
+      "const": "0.1.0"
+    },
+    "consent_to_submit": {
+      "type": "boolean"
+    },
+    "submitted_at": {
+      "type": "null",
+      "description": "Reserved for actual central receipt; local preparation is not submission."
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "research_relevance_score",
+        "research_relevance_reason",
+        "transferability_score",
+        "transferability_reason",
+        "reusability_score",
+        "reusability_reason",
+        "specificity_score",
+        "specificity_reason",
+        "evidence_in_source_chat_score",
+        "evidence_in_source_chat_reason"
+      ],
+      "properties": {
+        "research_relevance_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "research_relevance_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "transferability_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "transferability_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reusability_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "reusability_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "specificity_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "specificity_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_in_source_chat_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "evidence_in_source_chat_reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "recipe": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "when_to_use",
+        "concrete_output",
+        "methodological_warning",
+        "estimated_time",
+        "ingredients",
+        "steps",
+        "success_criteria",
+        "academic_irony",
+        "reproducible_material",
+        "checks",
+        "interactive_prompt",
+        "quality_control_prompt"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "when_to_use": {
+          "type": "string",
+          "minLength": 1
+        },
+        "concrete_output": {
+          "type": "string",
+          "minLength": 1
+        },
+        "methodological_warning": {
+          "type": "string",
+          "minLength": 1
+        },
+        "estimated_time": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ingredients": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "success_criteria": {
+          "type": "string",
+          "minLength": 1
+        },
+        "academic_irony": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reproducible_material": {
+          "type": "string",
+          "minLength": 1
+        },
+        "checks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "interactive_prompt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quality_control_prompt": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

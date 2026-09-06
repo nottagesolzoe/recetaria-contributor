@@ -1,0 +1,16 @@
+{
+  "recipe_sha256": "REPLACE_WITH_HASH_FROM_verify_test.py",
+  "tester_id": "REPLACE_WITH_INDEPENDENT_TESTER_ID",
+  "tested_at": "YYYY-MM-DD",
+  "environment": "Specify tools and versions or procedural setting",
+  "source_grounding_checked_locally": false,
+  "status": "NOT_TESTED",
+  "checks": [
+    {
+      "procedure": "Concrete executed action",
+      "expected": "Observable expected output",
+      "observed": "Actual observed output",
+      "passed": false
+    }
+  ]
+}

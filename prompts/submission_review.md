@@ -1,0 +1,5 @@
+# Revisión antes de preparar una contribución
+
+Aplicá la especificación canónica. Mostrá el JSON completo, incluidos código, prompts, puntuaciones y atribución. Revisá nombres de personas, datos de investigación, credenciales, URLs, rutas y comentarios de código. El esquema cerrado evita campos extra, pero no detecta información privada dentro de texto libre: hace falta revisión humana.
+
+Explicá que el destino editorial es RecetArIA y que V0.1 no tiene transporte a Drive. Ofrecé EDIT, REJECT o SUBMIT para la versión mostrada. Solo SUBMIT explícito del investigador permite consent_to_submit true. Una modificación invalida ese consentimiento. No incluyas adjuntos, historial ni registro local. Si se usa la utilidad local, dejá consent_to_submit false y submitted_at null: la utilidad hará la previsualización y confirmación final. Si se prepara manualmente, submitted_at permanece null hasta recepción real y consent_to_submit solo cambia tras SUBMIT. Guardar un archivo no equivale a recepción ni aprobación.
