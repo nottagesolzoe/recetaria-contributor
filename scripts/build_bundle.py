@@ -6,3 +6,5 @@ text='# RecetArIA Contributor 0.1.0 · paquete portable\n\nCopiá este documento
 text+='\n\n'.join((root/f).read_text() for f in files)
 text+='\n\n# Contrato JSON\n\n```json\n'+(root/'schemas/recipe_draft.schema.json').read_text()+'```\n'
 (root/'START_HERE.md').write_text(text)
+
+(root/'PARA_COPIAR_EN_EL_CHAT.txt').write_text(text)

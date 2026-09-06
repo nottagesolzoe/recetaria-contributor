@@ -4,12 +4,11 @@ Proyecto colaborativo creado y mantenido por **Sol Zoe Nottage**. Convierte prob
 
 ## Empezar sin GitHub ni programación
 
-1. Recibí el ZIP privado de Sol y descomprimilo. No necesitás cuenta de GitHub.
-2. Abrí `START_HERE.md`. Copiá su contenido completo en el LLM que uses.
-3. Proporcioná solo las conversaciones o fragmentos propios que quieras analizar. No asumas que un prompt puede acceder a otros chats. Revisá qué datos estás compartiendo con tu proveedor antes de pegarlos; podés usar un modelo local.
-4. Pedí: «Detectá candidatos en este material y mostrámelos para revisión». Revisá las cinco dimensiones y la evidencia local. Elegí REJECT, EDIT o KEEP para cada candidato.
-5. Pedí redactar los candidatos elegidos con el formato incluido. Revisá especialmente datos privados y resultados que no fueron comprobados.
-6. Guardá el JSON como archivo local. Para una contribución, revisá el contenido completo y elegí explícitamente SUBMIT para ese draft.
+**Abrí [INSTRUCCIONES.txt](INSTRUCCIONES.txt).** Es la guía paso a paso para participantes, sin programación ni instalación de software.
+
+**Funciona en el momento:** al pegar las instrucciones, analiza el contenido disponible de ese chat y propone candidatos. No espera una semana ni revisa otras conversaciones automáticamente.
+
+Solo necesitás esa guía y [PARA_COPIAR_EN_EL_CHAT.txt](PARA_COPIAR_EN_EL_CHAT.txt). El segundo archivo contiene las instrucciones completas listas para pegar en el chat donde resolviste un problema. Se genera desde las mismas fuentes que START_HERE.md.
 
 **V0.1 prepara un archivo local; todavía no envía a Drive.** Conservá el archivo hasta que Sol habilite el canal de recepción. No subas chats, drafts ni exportaciones privadas como issues o commits.
 

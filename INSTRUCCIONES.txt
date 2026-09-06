@@ -1,0 +1,109 @@
+RECETARIA · EMPEZAR ACÁ
+Guía para participar
+
+RecetArIA es un proyecto de Sol Zoe Nottage. Reúne soluciones que aparecen
+cuando investigamos con ayuda de inteligencia artificial y las convierte
+en instrucciones que otros investigadores pueden seguir.
+
+No necesitás saber programar ni usar GitHub.
+Para esta prueba no tenés que instalar ningún programa.
+Solo necesitás tu cuenta habitual de ChatGPT, Claude o Gemini y el archivo
+que te envió Sol.
+
+FUNCIONA EN EL MOMENTO
+Al pegar las instrucciones, revisa ese chat y te propone posibles recetas.
+No espera una semana ni revisa otras conversaciones por su cuenta.
+
+1. ABRÍ LA CARPETA
+
+Descargá el archivo ZIP que te envió Sol.
+En Mac, hacé doble clic para abrirlo.
+En Windows, hacé clic derecho y elegí “Extraer todo”.
+Abrí la carpeta recetaria-contributor.
+
+Para empezar, solo vas a usar estos dos archivos:
+• INSTRUCCIONES.txt: esta guía.
+• PARA_COPIAR_EN_EL_CHAT.txt: las instrucciones para la inteligencia artificial.
+Podés dejar los demás archivos como están.
+
+2. ELEGÍ UNA CONVERSACIÓN TUYA
+
+Entrá a la inteligencia artificial que usás habitualmente.
+Abrí un chat en el que hayas resuelto un problema de investigación.
+
+Puede ser algo pequeño: corregir una fecha, agregar una línea a un mapa,
+organizar la codificación de entrevistas o arreglar una fórmula.
+Elegí un chat donde aparezcan el problema y cómo lo resolviste.
+
+Para la primera prueba, usá una sola conversación. Si es muy larga y la
+herramienta no puede leerla completa, proporcioná el fragmento relevante.
+No incluyas contraseñas ni datos confidenciales de otras personas.
+
+3. COPIÁ LAS INSTRUCCIONES
+
+Abrí PARA_COPIAR_EN_EL_CHAT.txt con doble clic.
+Seleccioná todo y copialo:
+• Windows: Ctrl + A y después Ctrl + C.
+• Mac: Command + A y después Command + C.
+
+Volvé al chat que elegiste. Pegá el texto en el cuadro donde escribís tus
+mensajes, con Ctrl + V o Command + V. Enviá el mensaje.
+
+Listo: la inteligencia artificial empieza a revisar ese chat y te muestra
+posibles recetas. No necesitás activar nada más ni esperar una revisión
+semanal. La respuesta puede tardar lo habitual de tu herramienta.
+
+Si dice que no puede leer la parte donde resolviste el problema, copiá ese
+fragmento y pegalo en el mismo chat. Si no encuentra una solución útil,
+puede decirte que no hay una receta para extraer.
+
+4. ELEGÍ UNA RECETA
+
+Leé las propuestas. Podés responder con tus propias palabras:
+
+“Quiero trabajar con la receta 2”.
+“Esa solución no funcionó. Descartala”.
+“Corregí esta parte: …”.
+
+Cuando elijas una, escribí:
+
+Redactá esta receta con pasos concretos que otra persona pueda seguir.
+No inventes resultados. Señalá lo que todavía falta comprobar.
+
+5. REVISÁ Y PROBÁ
+
+Comprobá que la receta cuenta lo que realmente pasó en tu chat.
+Seguí sus pasos y anotá qué resultado obtuviste. Si falla, pedí corregirla.
+No alcanza con que la inteligencia artificial diga “funciona”.
+
+Antes de recibir el OK, otra persona deberá probar la receta y registrar
+qué hizo y qué obtuvo. Sol revisará esa prueba y decidirá si se aprueba.
+Un borrador puede quedar pendiente de prueba; no está aprobado por eso.
+
+6. GUARDÁ EL BORRADOR
+
+Escribí:
+
+Mostrame la receta completa y todos los datos que tendría el archivo para
+RecetArIA. No incluyas mi conversación original ni datos privados.
+
+Revisá lo que aparece. Si querés aportar esa versión, escribí SUBMIT.
+Esa palabra significa que autorizás preparar esa receta para el proyecto.
+Después pedí:
+
+Prepará el archivo del borrador de RecetArIA para descargar, en formato
+JSON. Si no podés crear un archivo, mostrame el contenido completo para
+copiarlo y guardarlo.
+
+Si aparece un archivo, descargalo. Si solo aparece texto, copialo en un
+archivo de texto y guardalo en tu computadora. No hace falta entender
+el formato para revisar la receta; Sol podrá ayudarte con ese archivo.
+
+IMPORTANTE SOBRE EL ENVÍO
+
+En esta versión, SUBMIT no envía nada a Drive. Guardá el borrador hasta
+que Sol te indique el canal de entrega. El destino será su Drive privado.
+No necesitás acceso a su Drive y no tenés que compartir tu chat original.
+
+El sistema solo revisa el material disponible en la conversación que
+usaste. No revisa automáticamente todos tus chats ni se ejecuta solo.
