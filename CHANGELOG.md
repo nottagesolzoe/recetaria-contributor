@@ -6,3 +6,4 @@ Piloto privado: especificación abierta a dominios y herramientas, paquete porta
 
 Guía INSTRUCCIONES.txt para participantes y copia de instrucciones en texto plano, sin instalación ni GitHub.
 Activación inmediata en el chat actual: detecta candidatos al recibir el prompt, sin programación semanal ni segunda orden de inicio.
+Guía y prompt completos en inglés, con el mismo contrato JSON y las mismas reglas de privacidad, activación inmediata y prueba.

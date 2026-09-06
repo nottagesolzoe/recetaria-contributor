@@ -1,0 +1,111 @@
+RECETARIA · START HERE
+Participant guide
+
+RecetArIA is a project created and maintained by Sol Zoe Nottage. It turns
+solutions developed during research conversations with AI into practical
+instructions that other researchers can follow.
+
+You do not need to know how to code or use GitHub.
+You do not need to install any software for this trial.
+You only need your usual ChatGPT, Claude or Gemini account and the package
+Sol sent you.
+
+IT STARTS IN THIS CHAT
+When you paste the instructions, the AI reviews that conversation and
+suggests possible recipes. It does not wait a week or search other chats
+on its own.
+
+1. OPEN THE FOLDER
+
+Download the ZIP file Sol sent you.
+On a Mac, double-click it to open it.
+On Windows, right-click it and select “Extract All”.
+Open the recetaria-contributor folder.
+
+You only need two files to get started:
+• INSTRUCTIONS_EN.txt: this guide.
+• PASTE_IN_CHAT_EN.txt: the instructions for the AI.
+You can leave the other files as they are.
+
+2. CHOOSE ONE OF YOUR CONVERSATIONS
+
+Open the AI service you normally use.
+Choose a chat in which you solved a research problem.
+
+It can be something small: correcting a date, adding a line to a map,
+clarifying interview coding rules or fixing a formula.
+Choose a chat that contains both the problem and how you solved it.
+
+Use just one conversation for your first trial. If it is too long for
+the AI to read, provide the relevant part. Do not include passwords
+or other people's confidential information.
+
+3. COPY THE INSTRUCTIONS
+
+Double-click PASTE_IN_CHAT_EN.txt to open it.
+Select all the text and copy it:
+• Windows: Ctrl + A, then Ctrl + C.
+• Mac: Command + A, then Command + C.
+
+Return to the conversation you chose. Paste the text into the message
+box using Ctrl + V or Command + V. Send the message.
+
+That is it: the AI starts reviewing this chat and suggests possible
+recipes. You do not need to switch anything else on or wait for a
+weekly review. Allow the usual response time for your AI service.
+
+If it cannot read the part where you solved the problem, copy that part
+and paste it into the same chat. If it finds no useful solution, it may
+say there is no recipe to extract.
+
+4. CHOOSE A RECIPE
+
+Read the suggestions. You can reply in your own words:
+
+“I would like to work on recipe 2.”
+“That solution did not work. Discard it.”
+“Please correct this part: …”
+
+Once you have chosen one, write:
+
+Write this recipe as concrete steps another person can follow.
+Do not invent results. Identify anything that still needs checking.
+
+5. REVIEW AND TEST IT
+
+Check that the recipe describes what actually happened in your chat.
+Follow the steps and record the result. If it fails, ask for corrections.
+The AI saying “it works” does not count as a test.
+
+Before the recipe can be approved, another person must test it and record
+what they did and what they obtained. Sol reviews that test and decides
+whether to approve the recipe. An untested draft can remain pending;
+that does not make it approved.
+
+6. SAVE YOUR DRAFT
+
+Write:
+
+Show me the complete recipe and all the information that would be included
+in the file for RecetArIA. Do not include my original conversation or
+private information.
+
+Review everything. If you want to contribute that version, type SUBMIT.
+This means you authorize preparing that recipe for the project.
+Then ask:
+
+Prepare the RecetArIA draft as a downloadable JSON file. If you cannot
+create a file, show me the complete contents so I can copy and save them.
+
+If a file appears, download it. If only text appears, copy it into a text
+file and save it on your computer. You do not need to understand the file
+format to review the recipe; Sol can help you with the file.
+
+ABOUT SENDING YOUR DRAFT
+
+In this version, SUBMIT does not send anything to Drive. Keep your draft
+until Sol tells you how to deliver it. Its destination will be her private
+Drive. You do not need access to her Drive or to share your original chat.
+
+The system only reviews material available in the conversation you used.
+It does not automatically review all your chats or run in the background.

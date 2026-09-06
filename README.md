@@ -4,7 +4,11 @@ Proyecto colaborativo creado y mantenido por **Sol Zoe Nottage**. Convierte prob
 
 ## Empezar sin GitHub ni programación
 
-**Abrí [INSTRUCCIONES.txt](INSTRUCCIONES.txt).** Es la guía paso a paso para participantes, sin programación ni instalación de software.
+Español: **[INSTRUCCIONES.txt](INSTRUCCIONES.txt)** + [PARA_COPIAR_EN_EL_CHAT.txt](PARA_COPIAR_EN_EL_CHAT.txt).
+
+English: **[INSTRUCTIONS_EN.txt](INSTRUCTIONS_EN.txt)** + [PASTE_IN_CHAT_EN.txt](PASTE_IN_CHAT_EN.txt).
+
+**Abrí la guía de tu idioma.** Es la guía paso a paso para participantes, sin programación ni instalación de software.
 
 **Funciona en el momento:** al pegar las instrucciones, analiza el contenido disponible de ese chat y propone candidatos. No espera una semana ni revisa otras conversaciones automáticamente.
 

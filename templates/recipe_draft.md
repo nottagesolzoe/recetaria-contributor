@@ -52,4 +52,4 @@
 
 [Completar]
 
-Los pasos y las comprobaciones se representan como listas en JSON. El título es el encabezado; los otros 13 campos desarrollan el contenido.
+Los pasos y las comprobaciones se representan como listas en JSON. El título es el encabezado; los otros 12 campos desarrollan el contenido.

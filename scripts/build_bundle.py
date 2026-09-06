@@ -8,3 +8,7 @@ text+='\n\n# Contrato JSON\n\n```json\n'+(root/'schemas/recipe_draft.schema.json
 (root/'START_HERE.md').write_text(text)
 
 (root/'PARA_COPIAR_EN_EL_CHAT.txt').write_text(text)
+
+english=(root/'prompts/contributor_en.md').read_text()
+english+='\n\n# Shared JSON contract\n\n```json\n'+(root/'schemas/recipe_draft.schema.json').read_text()+'```\n'
+(root/'PASTE_IN_CHAT_EN.txt').write_text(english)
