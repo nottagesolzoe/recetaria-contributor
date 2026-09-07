@@ -1,14 +1,16 @@
-"""Rebuild the self-contained prompt from canonical sources."""
+"""Build participant prompts with no external file requirements or private data."""
 from pathlib import Path
+import zipfile
 root=Path(__file__).resolve().parents[1]
-files=['prompts/system_prompt.md','prompts/recipe_detector.md','prompts/recipe_writer.md','prompts/submission_review.md','templates/recipe_draft.md']
-text='# RecetArIA Contributor 0.1.0 · paquete portable\n\nCopiá este documento completo como instrucciones. Proporcioná el material fuente por separado.\n\n'
-text+='\n\n'.join((root/f).read_text() for f in files)
-text+='\n\n# Contrato JSON\n\n```json\n'+(root/'schemas/recipe_draft.schema.json').read_text()+'```\n'
-(root/'START_HERE.md').write_text(text)
-
-(root/'PARA_COPIAR_EN_EL_CHAT.txt').write_text(text)
-
+files=['system_prompt.md','recipe_detector.md','recipe_writer.md','recipe_validator.md','submission_review.md']
+spanish='\n\n'.join((root/'prompts'/name).read_text().strip() for name in files)+'\n'
 english=(root/'prompts/contributor_en.md').read_text()
-english+='\n\n# Shared JSON contract\n\n```json\n'+(root/'schemas/recipe_draft.schema.json').read_text()+'```\n'
+(root/'PARA_COPIAR_EN_EL_CHAT.txt').write_text(spanish)
 (root/'PASTE_IN_CHAT_EN.txt').write_text(english)
+# Preserve the old entry point for existing links; it is the same plain prompt.
+(root/'START_HERE.md').write_text(spanish)
+(root/'dist').mkdir(exist_ok=True)
+with zipfile.ZipFile(root/'dist/recetaria-prompts-es-en.zip','w',compression=zipfile.ZIP_DEFLATED) as archive:
+    archive.writestr('RecetArIA-ES.txt',spanish)
+    archive.writestr('RecetArIA-EN.txt',english)
+print('Participant package: two alternative prompts, one per language.')

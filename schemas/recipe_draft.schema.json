@@ -147,7 +147,6 @@
         "ingredients",
         "steps",
         "success_criteria",
-        "academic_irony",
         "reproducible_material",
         "checks",
         "interactive_prompt",
@@ -215,6 +214,10 @@
           "minLength": 1
         },
         "quality_control_prompt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "implementation_prompt": {
           "type": "string",
           "minLength": 1
         }

@@ -1,55 +1,40 @@
-# Plantilla de receta
+# [Título práctico]
 
-## Título práctico
+Tiempo de preparación: [estimación con supuestos cuando sean necesarios]
+Resultado: [producto concreto]
 
-[Completar]
+## Sobre esta receta
+[Cuándo usarla y advertencia pertinente.]
 
-## Cuándo usarla
+## Ingredientes
+[Materiales, entradas y decisiones previas.]
 
-[Completar]
+## Preparación
+1. [Acción o decisión concreta y cómo realizarla.]
+2. [Siguiente paso necesario.]
 
-## Resultado concreto
+## Cómo saber si quedó bien
+[Criterios observables y condiciones para no avanzar.]
 
-[Completar]
+## Usá IA para [tarea]
+[Función de la IA.]
 
-## Advertencia metodológica
+Prompt
+[Recorrido de decisiones, una pregunta cerrada por vez, registro y aprobación.]
 
-[Completar]
+## Llevá la receta a código
+[Cuando corresponda. Para trabajo sin código, adaptar a «Aplicá la receta».]
 
-## Tiempo estimado y supuestos
+Prompt
+[Herramienta primero, implementación después de aprobar decisiones.]
 
-[Completar]
+## Comprobá el código
+[O «Comprobá el resultado», según corresponda.]
 
-## Ingredientes / entradas
+Prompt
+[Controles de resultados. LISTO / REVISAR / NO AVANZAR con criterio explícito.]
 
-[Completar]
+## Si querés ser un mal académico
+[Opcional: una mala práctica real asociada al procedimiento.]
 
-## Pasos cronológicos
-
-[Completar]
-
-## Cómo saber si funcionó
-
-[Completar]
-
-## Una línea de ironía académica
-
-[Completar]
-
-## Código mínimo o plantilla metodológica
-
-[Completar]
-
-## Comprobaciones del resultado
-
-[Completar]
-
-## Prompt tutor interactivo
-
-[Completar]
-
-## Prompt separado de control de calidad
-
-[Completar]
-
-Los pasos y las comprobaciones se representan como listas en JSON. El título es el encabezado; los otros 12 campos desarrollan el contenido.
+Plantilla de mantenimiento. El participante recibe un único prompt que incorpora esta estructura; no necesita abrir este archivo.

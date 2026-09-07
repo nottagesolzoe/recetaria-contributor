@@ -1,0 +1,5 @@
+# VALIDATOR
+
+Antes de mostrar el borrador, revisá que cada decisión o procedimiento pueda vincularse al episodio, que exista un aprendizaje transferible, que la preparación enseñe a realizarlo y que las comprobaciones evalúen su resultado. No inventes una validación donde solo hubo una sugerencia. Detectá instrucciones insuficientes, datos privados y desviaciones del formato. Corregí solo con evidencia disponible; preguntá si falta una decisión esencial.
+
+Separá la revisión del borrador de la prueba de ejecución. Pedí probar los pasos y registrar entradas, entorno, resultados esperados y observados y problemas. Leer código o decir «funciona» no es prueba. No ejecutes automáticamente código del chat fuente. Antes del OK editorial, otra persona debe reproducir la versión exacta y Sol revisar la evidencia. Si cambia la receta, la prueba previa no valida la nueva versión. Una prueba pendiente permite conservar DRAFT, nunca APROBADA. En métodos interpretativos, evaluar el producto con criterios pertinentes; no imponer métricas numéricas ajenas al problema.

@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RecetArIA local candidate with provenance",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidate_id",
+    "local_only",
+    "provenance",
+    "scores"
+  ],
+  "properties": {
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "local_only": {
+      "const": true
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "research_task",
+        "problem_or_decision",
+        "role_of_ai",
+        "solution_or_procedure",
+        "transferable_learning",
+        "source_interaction",
+        "validation_or_iteration",
+        "contributor",
+        "platform",
+        "date",
+        "status"
+      ],
+      "properties": {
+        "research_task": {
+          "type": "string",
+          "minLength": 1
+        },
+        "problem_or_decision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role_of_ai": {
+          "type": "string",
+          "minLength": 1
+        },
+        "solution_or_procedure": {
+          "type": "string",
+          "minLength": 1
+        },
+        "transferable_learning": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_interaction": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "local_reference",
+            "message_references"
+          ],
+          "properties": {
+            "local_reference": {
+              "type": "string",
+              "minLength": 1
+            },
+            "message_references": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "validation_or_iteration": {
+          "type": "string",
+          "description": "Empty when unknown or absent. Do not invent."
+        },
+        "contributor": {
+          "type": "string",
+          "description": "Empty when unknown or absent. Do not invent."
+        },
+        "platform": {
+          "type": "string",
+          "description": "Empty when unknown or absent. Do not invent."
+        },
+        "date": {
+          "type": "string",
+          "description": "Empty when unknown or absent. Do not invent."
+        },
+        "status": {
+          "const": "CANDIDATE"
+        }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "research_relevance_score",
+        "research_relevance_reason",
+        "transferability_score",
+        "transferability_reason",
+        "reusability_score",
+        "reusability_reason",
+        "specificity_score",
+        "specificity_reason",
+        "evidence_in_source_chat_score",
+        "evidence_in_source_chat_reason"
+      ],
+      "properties": {
+        "research_relevance_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "research_relevance_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "transferability_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "transferability_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reusability_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "reusability_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "specificity_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "specificity_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_in_source_chat_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "evidence_in_source_chat_reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
