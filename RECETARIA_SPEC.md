@@ -1,10 +1,10 @@
-# RecetArIA · especificación central
+# RecetarIA · especificación central
 
 Reglas aportadas por Sol Zoe Nottage. La procedencia se conserva en el entorno del contributor. Los ejemplos describen el mecanismo, no son una fuente de nuevos candidatos.
 
-## 1. Qué es RecetArIA
+## 1. Qué es RecetarIA
 
-RecetArIA convierte aprendizajes que aparecen durante la práctica real de hacer investigación con asistentes de IA en recetas metodológicas breves, reproducibles y transferibles.
+RecetarIA convierte aprendizajes que aparecen durante la práctica real de hacer investigación con asistentes de IA en recetas metodológicas breves, reproducibles y transferibles.
 
 No es un manual general de metodología.
 
@@ -112,6 +112,10 @@ PROBLEMA
 
 La comprobación no reemplaza la enseñanza del procedimiento.
 
+### Estructura del borrador y bibliografía
+
+Usar el formato de RecetarIA documentado en [la plantilla](templates/recipe_draft.md). Los prompts se integran en la preparación y la comprobación. La bibliografía la aporta la persona contribuyente: el asistente no busca, sugiere ni añade textos. Si la persona no los indicó para este apartado, se deja pendiente en el borrador. La evaluación editorial también queda pendiente.
+
 ## 7. Escala
 
 Las recetas pueden ser muy cortas.
@@ -122,7 +126,7 @@ No combinar artificialmente varios problemas para producir una receta más grand
 
 Una receta puede resolver una decisión de 10 minutos o un procedimiento de varias horas.
 
-RecetArIA puede cubrir cualquier etapa del proceso de investigación, pero solamente cuando esa etapa haya aparecido en las interacciones analizadas.
+RecetarIA puede cubrir cualquier etapa del proceso de investigación, pero solamente cuando esa etapa haya aparecido en las interacciones analizadas.
 
 ## 8. IA dentro de la receta
 
@@ -161,7 +165,7 @@ Puede existir una línea breve de “Si querés ser un mal académico” cuando 
 
 ## 10. Ejemplos de procedencia válidos
 
-Estos ejemplos provienen del desarrollo real de RecetArIA y sirven como fixtures conceptuales:
+Estos ejemplos provienen del desarrollo real de RecetarIA y sirven como fixtures conceptuales:
 
 ### Comparación de prompts
 
@@ -215,7 +219,7 @@ DETECTOR
 encuentra episodios candidatos en las interacciones.
 
 EDITOR
-convierte un episodio aprobado por el contributor en un borrador RecetArIA.
+convierte un episodio aprobado por el contributor en un borrador RecetarIA.
 
 VALIDATOR
 comprueba que el borrador conserva el aprendizaje del episodio y cumple la estructura editorial.

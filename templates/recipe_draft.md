@@ -1,40 +1,29 @@
-# [Título práctico]
+# [Título práctico y específico]
 
-Tiempo de preparación: [estimación con supuestos cuando sean necesarios]
-Resultado: [producto concreto]
+Tiempo de preparación: [estimación]
+
+Resultado: [producto concreto y utilizable]
 
 ## Sobre esta receta
-[Cuándo usarla y advertencia pertinente.]
+Precisá cuándo sirve y qué límite importa para aplicarla.
 
-## Ingredientes
-[Materiales, entradas y decisiones previas.]
+## Ingredientes reales
+Enumerá los insumos, materiales y decisiones previas que el episodio sustenta.
 
 ## Preparación
-1. [Acción o decisión concreta y cómo realizarla.]
-2. [Siguiente paso necesario.]
+Ordená pasos ejecutables. En cada paso explicá qué entra, qué se decide o hace, con qué criterio y qué queda construido. Integrá los prompts de decisión e implementación en los pasos pertinentes y explicá su función. El prompt debe guiar la acción con preguntas: hacé una pregunta por turno sobre la decisión u operación que corresponde, explicá las opciones y sus consecuencias, y usá la respuesta para construir o modificar una parte del producto antes de seguir. Si la persona dice «No sé», ayudala a elegir con un criterio o un ejemplo pertinente y pedile que confirme la elección. Mostrá el avance y confirmá las decisiones antes de generar código. Si no hace falta código, construí el producto en el formato pertinente.
 
 ## Cómo saber si quedó bien
-[Criterios observables y condiciones para no avanzar.]
+Indicá qué salida comprobar, con qué criterio y cuándo revisar o detenerse. Integrá aquí el prompt de comprobación si hace falta. Distinguí resultados observados de pruebas pendientes.
 
-## Usá IA para [tarea]
-[Función de la IA.]
+## Curaduría de textos pertinentes y verificados
+La bibliografía la completa quien aporta la receta. Dejá «Pendiente de completar por quien aporta la receta» si no la proporcionó. Podés transcribir referencias que la persona indique para este apartado y pedirle que explique qué paso fundamenta cada una. No busques, sugieras ni agregues referencias por tu cuenta, ni extraigas automáticamente citas del chat. No des por verificadas las referencias aportadas. La curaduría pendiente no impide mostrar un borrador.
 
-Prompt
-[Recorrido de decisiones, una pregunta cerrada por vez, registro y aprobación.]
+## ¿Qué podés hacer después?
+Indicá una continuación concreta que se desprenda del producto de la receta.
 
-## Llevá la receta a código
-[Cuando corresponda. Para trabajo sin código, adaptar a «Aplicá la receta».]
-
-Prompt
-[Herramienta primero, implementación después de aprobar decisiones.]
-
-## Comprobá el código
-[O «Comprobá el resultado», según corresponda.]
-
-Prompt
-[Controles de resultados. LISTO / REVISAR / NO AVANZAR con criterio explícito.]
+## ¿APROBADA / CASI / REHACER?
+Dejá la evaluación editorial pendiente. La receta permanece en DRAFT; Contributor no otorga aprobación.
 
 ## Si querés ser un mal académico
-[Opcional: una mala práctica real asociada al procedimiento.]
-
-Plantilla de mantenimiento. El participante recibe un único prompt que incorpora esta estructura; no necesita abrir este archivo.
+Incluí esta línea opcional solo si describe una mala práctica real ligada a la receta.

@@ -1,4 +1,4 @@
-# RecetArIA Contributor
+# RecetarIA Contributor
 
 Proyecto creado y dirigido por **Sol Zoe Nottage**, con crédito para quienes contribuyen recetas. Detecta aprendizajes de interacciones reales de investigación con IA y los convierte en recetas breves.
 
@@ -9,7 +9,7 @@ Proyecto creado y dirigido por **Sol Zoe Nottage**, con crédito para quienes co
 - Español: [prompt completo](PARA_COPIAR_EN_EL_CHAT.txt).
 - English: [complete prompt](PASTE_IN_CHAT_EN.txt).
 
-Sol puede copiar el texto y entregarlo directamente. Empieza en ese momento, propone candidatas y espera «CREAR RECETA», «DESCARTAR» o «NO ES TRANSFERIBLE». Después muestra la receta en el chat, con preparación, uso de IA, implementación y comprobación.
+Sol puede copiar el texto y entregarlo directamente. Empieza en ese momento, propone candidatas y espera «CREAR RECETA», «DESCARTAR» o «NO ES TRANSFERIBLE». Si elegís crear, te pregunta si querés una receta o una familia para acciones similares. Después muestra la receta en el chat con la estructura de RecetarIA. La bibliografía queda pendiente hasta que la complete quien aporta la receta.
 
 ## Qué queda detrás de ese recorrido
 
