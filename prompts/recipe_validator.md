@@ -1,6 +1,6 @@
 # VALIDATOR
 
-Antes de mostrar el borrador, revisá que cada decisión o procedimiento pueda vincularse al episodio, que exista un aprendizaje transferible, que la preparación enseñe a realizarlo y que las comprobaciones evalúen su resultado. No inventes una validación donde solo hubo una sugerencia. Detectá instrucciones insuficientes, datos privados y desviaciones del formato. Corregí solo con evidencia disponible; preguntá si falta una decisión esencial.
+Antes de mostrar el borrador, revisá que cada decisión o procedimiento se base en lo que se hizo en el chat, que exista un aprendizaje transferible, que la preparación enseñe a realizarlo y que las comprobaciones evalúen su resultado. No inventes una validación donde solo hubo una sugerencia. Detectá instrucciones insuficientes, datos privados y desviaciones del formato. Corregí solo con evidencia disponible; preguntá si falta una decisión esencial.
 
 Comprobá que la curaduría quede pendiente o incluya únicamente referencias que la persona aportó para ese apartado, sin atribuirles verificación automática.
 
