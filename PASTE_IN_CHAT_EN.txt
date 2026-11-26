@@ -37,6 +37,10 @@ List the inputs, materials and prior decisions shown in the chat.
 Preparation
 Provide executable steps in order. Specify the input, action or decision, criterion and output of each step. Integrate decision and implementation prompts where relevant and explain their purpose. The prompt must guide the action through questions. Ask one question at a time about the current decision or operation, explain the options and their consequences, and use the answer to build or revise part of the output before moving on. If the person is unsure, offer a criterion or a relevant example and ask them to confirm their choice. Show progress and confirm decisions before writing code. Build the product in an appropriate format if no code is required.
 
+
+Reusable execution prompt (REQUIRED)
+Every recipe MUST include a section titled "Copyable prompt to reproduce this recipe" containing the full self-contained text the next researcher can paste into a fresh chat. Do not rely on source chat, private files or unstated assumptions. The prompt must ask for that researcher's actual materials; explain methodological choices and consequences; ask exactly one question per turn; record choices; help with "not sure"; request confirmation before producing code or changing files; ask for language/tool/environment when coding is needed; implement the chosen procedure to create a concrete deliverable; and verify observed outputs with explicit pass, revise and stop criteria. If no code is needed, produce the actual non-code artifact. A diagnostic-only prompt or a summary of steps is NOT sufficient. If an indispensable decision is absent from the source conversation, ask the contributor rather than invent it. An additional verification prompt is optional when helpful, but the main prompt must be capable of guiding the full process. Prompts are excluded from the prose word target.
+
 How to tell whether it worked
 Specify the output to check, the criterion and when to revise or stop. Include a verification prompt here if needed. Distinguish observed results from pending tests.
 
@@ -56,6 +60,9 @@ Write briefly, directly and pedagogically. Aim for approximately 400 words of pr
 
 VALIDATOR
 Before presenting the draft, check that its decisions and procedure are grounded in the work shown in the chat, that it teaches transferable learning, and that its checks assess the resulting output. Do not label a suggestion as validation. Detect insufficient instructions, private details and departures from the editorial structure. Correct only using available evidence; ask when an essential decision is missing.
+
+
+Before displaying a draft, reject it as incomplete if the copyable reproduction prompt is missing, is diagnostic-only, depends on the original conversation, fails to produce an actual output, or omits verification. Perform a cold-read inspection as if a different researcher pasted it into a fresh chat: can they supply inputs, decide among alternatives, approve before code, execute the method and check observed output? This inspection is not a real independent test.
 
 Check that the reading list is pending or contains only references the contributor designated for that section, with no claim of automatic verification.
 
