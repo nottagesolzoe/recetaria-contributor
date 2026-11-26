@@ -112,6 +112,10 @@ PROBLEMA
 
 La comprobación no reemplaza la enseñanza del procedimiento.
 
+### Uso sencillo y aprendizaje guiado
+
+Toda receta debe poder iniciarse sin conocimientos técnicos previos. En cada turno del prompt ejecutable, el asistente explica con palabras comunes qué se va a hacer y por qué es necesario (una o dos frases) y hace exactamente una pregunta sencilla. Preferí 2–4 alternativas comprensibles y la opción «No sé». Si introduce un concepto técnico, lo explica brevemente con un ejemplo antes de pedir decisiones. No repite información ya aportada, no presenta formularios largos ni exige elegir métodos, métricas, modelos o lenguajes sin explicar primero los criterios y consecuencias. A medida que avanza, construye y muestra el producto parcial. El rigor metodológico, las decisiones registradas y las comprobaciones permanecen obligatorios. El validador rechaza prompts inaccesibles, con múltiples preguntas por turno o que solo enumeran instrucciones.
+
 ### Prompt reproducible obligatorio
 
 Toda receta del Contributor debe contener una sección «Prompt ejecutable para replicar esta receta», con texto íntegro que otra persona pueda copiar en un chat nuevo y aplicar a su propio proyecto sin acceso a la conversación original. El prompt no es un resumen ni solo un diagnóstico: conduce desde insumos y decisiones justificadas hasta implementación, artefacto final y verificación con resultados observados. Hace una sola pregunta por turno, explica alternativas, registra elecciones, permite «No sé», confirma decisiones antes de código o cambios y pregunta lenguaje/entorno cuando corresponde. La prueba de resultados debe tener criterios y acciones si falla. Si una decisión indispensable no está documentada, consultar al autor; no inventarla. El validador bloquea borradores sin este prompt completo. La validación de estructura no reemplaza reproducción independiente.
