@@ -22,6 +22,10 @@ python3 -m unittest discover -s tests
 
 El script genera los prompts de ambos idiomas y un ZIP de entrega con solo esos dos textos, sin código ni archivos de desarrollo. El repositorio conserva la infraestructura existente. Los protocolos de detección con LLM y de ejecución de recetas están separados; pasar pruebas del software no acredita esos protocolos.
 
+## Enlace para continuar con RecetarIA
+
+El enlace público [RecetarIA Contributor](https://github.com/nottagesolzoe/recetaria-contributor) explica el procedimiento y ofrece el prompt para colaborar. **No es un formulario de envío automático**. Cuando el borrador esté listo, el asistente debe compartir este enlace como orientación y entregar el texto copiable, sin mostrar su auditoría interna ni pedir una confirmación de envío que no puede ejecutar.
+
 ## Estado del envío y la revisión
 
 La confirmación explícita autoriza únicamente la versión mostrada. El envío automático a Drive requiere una conexión real, todavía no desplegada. El prompt no puede crearla ni afirmar una entrega sin comprobante. Mientras no esté habilitada, el borrador permanece en el chat; no se exige contactar a Sol ni descargar archivos para generar la receta.
