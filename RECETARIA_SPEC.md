@@ -112,6 +112,10 @@ PROBLEMA
 
 La comprobación no reemplaza la enseñanza del procedimiento.
 
+### Prompt reproducible obligatorio
+
+Toda receta del Contributor debe contener una sección «Prompt ejecutable para replicar esta receta», con texto íntegro que otra persona pueda copiar en un chat nuevo y aplicar a su propio proyecto sin acceso a la conversación original. El prompt no es un resumen ni solo un diagnóstico: conduce desde insumos y decisiones justificadas hasta implementación, artefacto final y verificación con resultados observados. Hace una sola pregunta por turno, explica alternativas, registra elecciones, permite «No sé», confirma decisiones antes de código o cambios y pregunta lenguaje/entorno cuando corresponde. La prueba de resultados debe tener criterios y acciones si falla. Si una decisión indispensable no está documentada, consultar al autor; no inventarla. El validador bloquea borradores sin este prompt completo. La validación de estructura no reemplaza reproducción independiente.
+
 ### Estructura del borrador y bibliografía
 
 Usar el formato de RecetarIA documentado en [la plantilla](templates/recipe_draft.md). Los prompts se integran en la preparación y la comprobación. La bibliografía la aporta la persona contribuyente: el asistente no busca, sugiere ni añade textos. Si la persona no los indicó para este apartado, se deja pendiente en el borrador. La evaluación editorial también queda pendiente.
@@ -210,6 +214,10 @@ F. El sistema puede detectar una microreceta y no intenta convertirla artificial
 G. Toda candidata mantiene trazabilidad hacia su episodio de origen.
 
 H. Ningún contenido del chat original sale del entorno del contributor sin autorización explícita.
+
+I. Toda receta DRAFT incluye prompt ejecutable autocontenido, con decisiones, ejecución y comprobación; un prompt solo diagnóstico se rechaza.
+
+J. Una persona sin historial previo puede iniciar el prompt, responder una pregunta por turno, elegir herramientas, aprobar decisiones y llegar a un producto comprobable sin inventar datos.
 
 ## 12. Arquitectura
 
