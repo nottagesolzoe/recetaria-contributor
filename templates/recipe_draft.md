@@ -15,6 +15,10 @@ Incluí, solo cuando aporten claridad, apoyos breves dentro del procedimiento: �
 
 Ordená pasos ejecutables. En cada paso explicá qué entra, qué se decide o hace, con qué criterio y qué queda construido. Integrá los prompts de decisión e implementación en los pasos pertinentes y explicá su función. El prompt debe guiar la acción con preguntas: hacé una pregunta por turno sobre la decisión u operación que corresponde, explicá las opciones y sus consecuencias, y usá la respuesta para construir o modificar una parte del producto antes de seguir. Si la persona dice «No sé», ayudala a elegir con un criterio o un ejemplo pertinente y pedile que confirme la elección. Mostrá el avance y confirmá las decisiones antes de generar código. Si no hace falta código, construí el producto en el formato pertinente.
 
+## Prompt ejecutable para replicar esta receta
+
+[OBLIGATORIO: prompt autocontenido y copiable. Al pegarlo en otro asistente, este inicia con una pregunta por turno, recoge insumos del nuevo investigador, explica y registra decisiones, solicita aprobación antes de código, pregunta lenguaje/entorno si aplica, implementa el procedimiento hasta un resultado concreto y exige comprobar salidas observadas. No depende del historial de origen ni inventa pruebas. Si falta una decisión crítica, solicitarla al autor y dejar el borrador pendiente.]
+
 ## Cómo saber si quedó bien
 Indicá qué salida comprobar, con qué criterio y cuándo revisar o detenerse. Integrá aquí el prompt de comprobación si hace falta. Distinguí resultados observados de pruebas pendientes.
 
