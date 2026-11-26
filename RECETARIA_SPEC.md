@@ -112,6 +112,10 @@ PROBLEMA
 
 La comprobación no reemplaza la enseñanza del procedimiento.
 
+### Prompts breves
+
+El texto que copia el usuario debe ser fácil de leer de una vez, idealmente 100–180 palabras si el procedimiento lo permite. No repetir la receta ni acumular advertencias, jerga o instrucciones internas. La IA acompaña los pasos con explicaciones breves, una pregunta por turno, decisiones aprobadas, producción del resultado y comprobación. Los detalles técnicos extensos viven en la preparación, archivos o código de soporte; si no están accesibles, se solicitan. No sacrificar reproducibilidad por un límite arbitrario.
+
 ### Uso sencillo y aprendizaje guiado
 
 Toda receta debe poder iniciarse sin conocimientos técnicos previos. En cada turno del prompt ejecutable, el asistente explica con palabras comunes qué se va a hacer y por qué es necesario (una o dos frases) y hace exactamente una pregunta sencilla. Preferí 2–4 alternativas comprensibles y la opción «No sé». Si introduce un concepto técnico, lo explica brevemente con un ejemplo antes de pedir decisiones. No repite información ya aportada, no presenta formularios largos ni exige elegir métodos, métricas, modelos o lenguajes sin explicar primero los criterios y consecuencias. A medida que avanza, construye y muestra el producto parcial. El rigor metodológico, las decisiones registradas y las comprobaciones permanecen obligatorios. El validador rechaza prompts inaccesibles, con múltiples preguntas por turno o que solo enumeran instrucciones.
