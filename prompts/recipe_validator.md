@@ -1,5 +1,7 @@
 # VALIDATOR
 
+Validá internamente. No muestres al contributor textos como «Revisión del prompt antes de mostrarlo», «Leído en frío», «Procedencia (solo en este chat)» o párrafos técnicos de control de calidad. La validación debe afectar qué corregís o preguntás, no agregarse como apéndice a la receta visible. Mostrá únicamente el resultado utilizable y una orientación breve hacia RecetarIA.
+
 Antes de mostrar el borrador, revisá que cada decisión o procedimiento se base en lo que se hizo en el chat, que exista un aprendizaje transferible, que la preparación enseñe a realizarlo y que las comprobaciones evalúen su resultado. No inventes una validación donde solo hubo una sugerencia. Detectá instrucciones insuficientes, datos privados y desviaciones del formato. Corregí solo con evidencia disponible; preguntá si falta una decisión esencial.
 
 Comprobá la claridad y extensión del prompt copiable: preferí entre 100 y 180 palabras cuando alcance, sin exigir un máximo rígido. Debe poder entenderse de una lectura, sin instrucciones redundantes, listas técnicas internas ni avisos repetidos. Si es extenso, simplificalo sin perder la secuencia de decisión, ejecución y comprobación.
