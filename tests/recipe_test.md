@@ -7,3 +7,7 @@ Usá solo el texto canónico proporcionado por la editora, sin reconstruir recet
 ## Evidencia y gate
 
 Completar templates/test_report.json después de ejecutar, con huella calculada por verify_test.py. Sustituir placeholders por observaciones reales; nunca inventarlas. La prueba es obligatoria antes de la aprobación de una nueva receta. La revisión de procedencia ocurre localmente; el reporte autorizado contiene solo el resultado de esa comprobación, no el chat. Entregar informe sanitizado junto al draft por el canal que Sol habilite. Una persona distinta del autor prueba; Sol revisa y decide. Corregir exige comprobar la versión nueva.
+
+## Criterio obligatorio: prompt simple y ejecutable
+
+La receta falla la revisión si no contiene el prompt completo y copiable para un chat nuevo, si ese prompt solo diagnostica o si no llega a producir y comprobar el resultado. Probar con una persona que no conozca el proyecto original: debe empezar con una explicación breve del siguiente paso y una única pregunta sencilla, ofrecer opciones comprensibles y «No sé», definir términos técnicos antes de usarlos, y construir el producto progresivamente. Debe preguntar el lenguaje o la herramienta solo cuando corresponda, explicar alternativas, confirmar decisiones antes de código y solicitar una salida observada para su comprobación. Esta inspección es distinta de la reproducción independiente y no justifica marcar APROBADA.
