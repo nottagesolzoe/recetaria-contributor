@@ -17,6 +17,8 @@ Ordená pasos ejecutables. En cada paso explicá qué entra, qué se decide o ha
 
 ## Prompt ejecutable para replicar esta receta
 
+[EXPERIENCIA DE USO: antes de cada pregunta, explicá en una o dos frases sencillas qué hará la persona y para qué; después una sola pregunta corta por turno, con opciones comprensibles y «No sé» cuando ayude. Definí la jerga indispensable con ejemplos. No pidas conocimientos técnicos ni elecciones metodológicas a ciegas. Mostrá progresivamente lo que queda construido; no repitas respuestas. La persona no tiene que leer instrucciones internas, código ni formularios extensos para empezar. Conservá el rigor y la comprobación.]
+
 [OBLIGATORIO: prompt autocontenido y copiable. Al pegarlo en otro asistente, este inicia con una pregunta por turno, recoge insumos del nuevo investigador, explica y registra decisiones, solicita aprobación antes de código, pregunta lenguaje/entorno si aplica, implementa el procedimiento hasta un resultado concreto y exige comprobar salidas observadas. No depende del historial de origen ni inventa pruebas. Si falta una decisión crítica, solicitarla al autor y dejar el borrador pendiente.]
 
 ## Cómo saber si quedó bien
